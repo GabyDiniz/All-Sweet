@@ -1,0 +1,673 @@
+*
+{
+    font-family: 'Open Sans', sans-serif;  
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+/* Menu */
+
+header{
+    padding: 8px 0;
+    height: 90px;
+    background-color: #D7A4B7;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    height: 82px;
+}
+
+.menu-dask{
+    float: right;
+}
+
+.menu-dask ul{
+    position: relative;
+    margin-top: 30px;
+}
+
+.menu-dask a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.menu-dask li{
+    padding: 0 10px;
+    font-weight: lighter;
+    display: inline-block;
+}
+
+.menu-dask li.selected{
+    font-weight: bold;
+}
+
+.menu-dask a:hover{
+    text-decoration: underline;
+}
+
+/* Banner */
+
+.banner
+{
+    width: 100%;
+    height: 450px;
+    background: url('../img/mb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.botao
+{
+    width: 200px;
+    text-align: center;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 300px;
+    margin-right: 250px;
+    transition-duration: 0.4s;
+    background-color: #FFB6C1;
+    color: #8B5A2B;
+    font-weight: bold;
+    border: 3px solid white;
+}
+
+.btn:hover
+{
+    background-color: #9FB6CD;
+    color: #696969;
+}
+
+/*diferencial*/
+
+.diferenciais
+{
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.line-text
+{
+    position: relative;
+    display: inline-block;
+
+}
+
+.line-text div
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 290px;
+    height: 3px;
+    background: #DB7093;
+}
+
+.line-text h2
+{
+    color: #8B5A2B;
+    font-size: 27px;
+}
+
+.icones-diferenciais
+{
+    margin-top: 35px;    
+}
+
+.box-icone-single
+{
+    float: left;
+    width: 33.3%;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.box-icone-single h2 span
+{
+    color: #696969;
+    font-size: 35px;
+}
+
+.box-icone-single p
+{
+    color: black;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+/*equipe*/
+
+.sobre-equipe
+{
+    padding: 30px 0px;
+    background: #FFE4E1;
+}
+
+.sobre-equipe > .container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre
+{
+    width: 50%;
+}
+
+.equipe-container
+{
+    width: 50%;
+}
+
+.sobre p
+{
+    color: #696969;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.avatar
+{
+    margin-top: 15px;
+}
+
+.img-avatar
+{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-size: 100% 100%;
+    background-color: aquamarine;
+}
+
+.descricao-avatar
+{
+    padding: 0px 10px;
+    width: calc(100% - 75px);
+    display: inline-block;
+}
+
+.descricao-avatar h3
+{
+    color: black;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.descricao-avatar p
+{
+    color: black;
+    font-weight: lighter;
+}
+
+
+/*Inscrição*/
+.inscricao
+{
+    background-color: #D7A4B7;
+    padding: 20px 0px;
+}
+
+.w50
+{
+    width: 50%;
+    float: left;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.inscricao-texto
+{
+    font-weight: normal;
+    color: white;
+}
+
+.inscricao-form input[type=text]
+{
+    width: 200px;
+    height: 30px;
+    background: white;
+    border: 1px solid #FFE4E1;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.inscricao-form input[type=submit]
+{
+    width: 120px;
+    height: 30px;
+    background: #FFE4E1;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    color: #DB7093;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/*Cards*/
+.cards
+{
+    padding: 30px 0px;
+}
+
+.card-single
+{
+    width: 33.3%;
+    float: left;
+    padding: 30px;
+}
+
+.card-single img
+{
+    width: 105%;
+    height: 345px;
+}
+
+.card-single h3
+{
+   margin-top: 5px;
+   font-weight: normal;
+   font-size: 20px;
+   text-align: center;
+}
+
+.card-single p
+{
+    margin: 10px 0px;
+    font-weight: lighter;
+    font-size: 16px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #DB7093;
+    text-align: center;
+}
+
+
+/* Rodapé / Footer */
+.w33
+{
+    float: left;
+    width: 33.3%;
+}
+
+.footer1
+{
+    background-color: #FFE4E1;
+    padding: 20px 0px;
+    color: #DB7093;
+
+}
+
+.footer1 h2
+{
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.footer1 a
+{
+    display: block;
+    color: black;
+    margin-top: 10px;
+}
+
+.group-icons a
+{
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+.footer2
+{
+    padding: 15px 0px;
+    background: #D7A4B7;
+    text-align: center;
+    color: white;
+}
+
+
+/*Responsividade*/
+.clear
+{
+    clear: both;
+}
+
+/*Iframe Responsivo*/
+.containeriframe1
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 3.5%;
+}
+
+.responsive-iframe
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    height: 70%;
+}
+
+/*Menu Responsivo*/
+.menu-mobile
+{
+    display: none;
+    float: right;
+}
+
+.menu-mobile h2
+{
+    cursor: pointer;
+}
+
+.menu-mobile ul
+{
+    display: none;
+    width: 100%;
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 35px;
+    z-index: 999;
+    text-align: center;
+}
+
+.menu-mobile li
+{
+    padding: 8px 0px;
+    border-bottom: 1px solid black;
+}
+
+.menu-mobile li.selected
+{
+    background-color: #DB7093;
+}
+
+.menu-mobile a
+{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+@media screen and (max-width:500px)
+{
+    .menu-dask
+    {
+        display: none;
+    }
+    .menu-mobile
+    {
+        display: block;
+    }
+}
+
+/*Título da página sobre*/
+.title-page
+{
+    padding: 70px;
+    width: 100%;
+    min-height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+}
+
+.title-page h2
+{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*Notícias da página Sobre*/
+.sobre-noticia
+{
+    padding: 30px 0px;
+}
+
+.sobre-noticia-single img
+{
+    float: left;
+    max-width: 100%;
+    width: 50%;
+}
+
+.sobre-noticia-single p
+{
+    font-size: 16px;
+    padding: 0px 15px;
+    padding-bottom: 10px;
+    float: left;
+    width: 50%;
+    text-align: justify;
+}
+
+.paragrafo-noticia-single p
+{
+    margin-top: 15px;
+}
+
+
+/*Paralax*/
+.paralax
+{
+    padding: 30px 0px;
+    width: 100%;
+    min-height: 400px;
+    background-image: url(../img/roscapara.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.botao2
+{
+    width: 200px;
+    text-align: center;
+    border: none;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 150px;
+    margin-right: center;
+    transition-duration: 0.2s;
+    background-color: #FFB6C1;
+    color: #8B5A2B;
+    font-weight: bold;
+    border: 3px solid white;
+}
+
+/*Equipe da página Sobre*/
+.equipe
+{
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.equipe-circles
+{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equipe-circles-single
+{
+    width: 33.3%;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.equipe-circles-single h3
+{
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.avatar2
+{
+    position: relative;
+    width: 60%;
+    padding-top: 60%;
+    margin: 0 auto;
+}
+
+.avatar2-container
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    background-color: #DB7093;
+    background-size: 100% 100%;
+}
+
+/*Destaque da página sobre */
+.destaque
+{
+    background-color: white;
+    padding: 20px 0px;
+}
+
+.destaque p
+{
+    font-weight: lighter;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.card-text
+{
+    margin-top: 10px;
+    width: 80%;
+    position: relative;
+}
+
+.card-text img
+{
+    max-width: 100%;
+    height: 400px;
+}
+
+
+/*Página Contato*/
+.contato
+{
+    min-height: 400px;
+    padding: 30px 0px;
+}
+
+.contato .w50,
+.contato .w100
+{
+    padding: 0px 10px;
+}
+
+.formulario form
+{
+    margin-top: 10px;
+}
+
+.formulario h2
+{
+    background: #FFC0CB;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 0px;
+    border-left: 3px solid #DB7093;
+    border-right: 3px solid #DB7093;
+}
+
+.w60
+{
+    width: 60%;
+    float: left;
+}
+
+.W40
+{
+    width: 40%;
+    float: left;
+}
+
+.formulario input[type=text],
+.formulario input[type=email]
+{
+    width: 100%; 
+    height: 40px; 
+    margin-bottom: 15px; 
+    padding-left: 8px;
+}
+
+.formulario textarea
+{
+    width: 100%;
+    height: 140px;
+    margin-bottom: 15 px;
+    padding: 10px;
+}
+
+.tags-form
+{
+    padding-left: 150px;
+}
+
+.tags-form h2
+{
+    font-weight: normal;
+    margin-left: 650px;
+}
+
+.tags-form p
+{
+    font-weight: lighter;
+    margin-left: 650px;
+}
+
+.tags-form p.tag-contato
+{
+    color: white;
+    background: #FFC0CB; 
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 650px;
+    padding: 8px 4px;
+    border-left: 2.5px solid #DB7093;
+    border-right: 2.5px solid #DB7093;
+}
